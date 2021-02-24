@@ -1,0 +1,48 @@
+body{
+  background-color: #0f1123;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  font-family: 'VT323', monospace;
+}
+.box{
+  border-radius: 2rem;
+  border-width: .6rem;
+  border-style: solid;
+  border-color: black;
+  height: 13rem;
+  width : 13rem;
+  margin : 2rem 0 0 23rem;
+  position: absolute;
+}
+.green{
+  background-color: green;
+  color: green;
+}
+.red{
+  background-color: red;
+  color: red;
+  margin-left: 41rem;
+}
+.blue{
+  background-color: blue;
+      margin-left: 41rem;
+        margin-top: 18rem;
+        color:blue;
+}
+.yellow{
+  background-color: yellow;
+  margin-top: 18rem;
+  color:yellow;
+
+}
+.pressed{
+  background-color: white;
+  color: white;
+  opacity: .6;
+}
+.end{
+  background-color: red;
+}
