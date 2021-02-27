@@ -46,3 +46,45 @@ h1{
 .end{
   background-color: red;
 }
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #0f1123;
+  font-size: 25px;
+  background: #e1bc91;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 35rem;
+}
+
+.btn:hover {
+  background: #c19277;
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  padding-top: 35rem;
+  color: #e1bc91;
+}
+.footer{
+  color: #91684a;
+}
+@media (max-width:1000px){
+  .btn{
+    margin-left: 10rem;
+  }
+  .box{
+    height: 13rem;
+    width : 13rem;
+    margin: 1rem 0 0 1rem;
+    position: relative;
+  }
+  footer{
+    text-align: center;
+    padding-top: 2rem;
+    color: #e1bc91;
+  }
+}

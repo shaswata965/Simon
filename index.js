@@ -10,6 +10,13 @@
         started = true;
       }
     });
+    $(".myButton").click(function() {
+      if (!started) {
+        $("h1").text("Level " + i);
+        nextSequence();
+        started = true;
+      }
+    });
 
 
     $("button").click(function() {
